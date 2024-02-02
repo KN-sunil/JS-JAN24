@@ -508,9 +508,8 @@ for( employee of employees){
 } */
 
   let femalecount=0;
-for (employee of employees){
+for(employee of employees){
     if (employee.gender ==="Female"){
-    
     femalecount++
     }
 } 

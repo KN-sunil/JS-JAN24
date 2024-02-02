@@ -48,7 +48,7 @@ console.log(emp.name) */
 console.log(emp) */
 
 //instead of hard coding to read properties we use for(  in)
-/* 
+
 let empdetails={
     id:101,
     name:"sunil",
@@ -59,33 +59,37 @@ let empdetails={
 }
 for(details in empdetails){
     console.log(details)
-} */
+}
  
-/* 
-let product={
+
+/* let product={
     pid:'p101',
     pname:"Iphone 18",
     price:18000,
     color:['Grey','Yellow','green']
 }
-for(prop in product){
-    console.log(prop, ":", product[prop] )
-}
+//to print key
+for(key in product){
+    console.log(product)
+} 
+//to print key value pairs
+for (key in product){
+    console.log(key,":",product[key])
+}  */
 
-console.log(product ['color'][2]);
- */
+//console.log(product ['color'][2]);
 
-let users=[
+/* let users=[
     { id:101, name:"rahul",sal:45000},
     { id:102, name:"sonia",sal:55000},
     { id:103, name:"priyanka",sal:65000},
-]
+] */
 
 //print user id / names
 /*  for(user of users){
     console.log(user.id)
 } */
 //iterating using for
-for( var i=0; i<=users.length-1 ; i++){
+/* for( var i=0; i<=users.length-1 ; i++){
     console.log(users[i].id)
-}
+} */
