@@ -128,5 +128,5 @@ for (employee of employees){
     
      malecount++
     }
-    document.getElementById("321").innerHTML="female count: "+malecount ;
+    document.getElementById("321").innerHTML="male count: "+malecount ;
 }
