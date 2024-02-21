@@ -37,6 +37,20 @@ let new_emp={...emp}
 
 console.log(new_emp) */
 
+//without spread
+/* 
+let emp={
+    id:101,
+    name:"sunil",
+    email:"sunil@gmail.com"
+}
+let new_Emp={}
+for(prop in emp){
+new_Emp[prop] = emp[prop]
+}
+console.log(new_Emp)
+ */
+
 //to merge two objects
 
 /* let user={
@@ -57,7 +71,7 @@ let new_employee={...user,...user_details}
 console.log(new_employee) */
 
 //to extend objects
-
+/* 
 let user={
     id:102,
     name:"sunil",
@@ -69,7 +83,7 @@ let user_details={
     location:"banglore"
 }
 
-console.log(user_details)
+console.log(user_details) */
 
 
 
